@@ -19,6 +19,7 @@ class UrbanRoutesLocators:
 
     # Tarjeta
     PAYMENT_METHOD_BUTTON = (By.CLASS_NAME, 'pp-text')
+    PAYMENT_METHOD_TEXT = (By.CLASS_NAME, 'pp-value-text')
     ADD_CARD_BUTTON = (By.CLASS_NAME, 'pp-plus')
     CARD_NUMBER_INPUT = (By.ID, 'number')
     CARD_CVV_INPUT = (By.XPATH, "//div[@class='card-code-input']//input[@id='code']")
