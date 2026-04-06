@@ -4,7 +4,6 @@ from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 
 
-
 # no modificar
 def retrieve_phone_code(driver) -> str:
     """Este código devuelve un número de confirmación de teléfono y lo devuelve como un string.
@@ -71,7 +70,6 @@ class TestUrbanRoutes:
         routes_page = UrbanRoutesPage(self.driver)
         address_from = data.address_from
         address_to = data.address_to
-        routes_page.set_route(address_from, address_to)
         assert routes_page.get_from() == address_from
         assert routes_page.get_to() == address_to
 

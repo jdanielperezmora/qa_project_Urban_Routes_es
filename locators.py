@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 
 class UrbanRoutesLocators:
     # Direcciones
+    ICE_CREAM_COUNTER = (By.CLASS_NAME, 'counter-value')
     FROM_FIELD = (By.ID, 'from')
     TO_FIELD = (By.ID, 'to')
     REQUEST_TAXI_BUTTON = (By.XPATH, "//button[contains(text(), 'Pedir un taxi')]")
